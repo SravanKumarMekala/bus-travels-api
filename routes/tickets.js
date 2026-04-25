@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Ticket = require('../models/Ticket');
-const Bus = require('../models/Bus');
+const Ticket = require('../models/ticket');
+const Bus = require('../models/bus');
 
 // Book a ticket
 router.post('/book', async (req, res) => {
